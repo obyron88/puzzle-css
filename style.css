@@ -10,8 +10,81 @@ h4{
     border: solid #072160;
 }
 main{
+    position:relative;
     width: 845px;
     height: 1024px;
     margin: auto;
     background-image: url('original.jpg');
+}
+.image1 {
+  position: absolute;
+  transform: rotate(270deg);
+  margin: auto;
+  margin-left: -27px;
+  margin-top: 27px;
+}
+.image2 {
+ position: absolute;
+ margin: auto;
+ margin-left: 207px;
+}
+.image3 {
+  position: absolute;
+  margin: auto;
+  margin-left: 554px;
+  margin-top: 196px;
+}
+.image4 {
+  position: absolute;
+  margin: auto;
+  margin-left: 288px;
+  margin-top: 192px;
+}
+.image5 {
+  position: absolute;
+  margin: auto;
+  margin-top: 266px;
+}
+.image6 {
+  position: absolute;
+  margin: auto;
+  margin-top: 520px;
+}
+.image7 {
+  position: absolute;
+  transform: rotate(90deg);
+  margin: auto;
+  margin-left: 194px;
+  margin-top: 490px;
+}
+.image8 {
+  position: absolute;
+  margin: auto;
+  margin-left: 553px;
+}
+.image9 {
+  position: absolute;
+  transform: rotate(180deg);
+  margin: auto;
+  margin-left: 476px;
+  margin-top: 468px;
+}
+.image10 {
+  position: absolute;
+  transform: rotate(-90deg);
+  margin: auto;
+  margin-top: 723px;
+  margin-left: 544px;
+}
+.image11 {
+  position: absolute;
+  transform: rotate(-90deg);
+  margin: auto;
+  margin-top: 733px;
+  margin-left: 341px;
+}
+.image12 {
+  position: absolute;
+  margin: auto;
+  margin-top: 799px;
 }
